@@ -1,0 +1,5 @@
+* Water Colour AV
+Water Colour AV is an Anti-Virus software for Linux.
+I do not recommend using it, I am writing it because I am told that I need to use anti-virus software on my computer, and I don't want to install any, so I'll just write my own lol.
+* Should I Use This
+Absolutely not, unless your goal is to follow a set of rules, in which case maybe.
