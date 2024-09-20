@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ## Edit to preference.
-scanArea="/home/*"
-ignore="^/(?!emacs|steam|Ltd|Kernel)([a-zA-Z0-9]+)$"
+scan_area="$HOME/Programming/Projects"
 
-find $scanArea -type f -wholename $ignore
+find $scan_area -type f -exec sha256sum {} \; | awk '{print $1}' | grep -E --color=auto `cat malware_list | paste -sd\|`
