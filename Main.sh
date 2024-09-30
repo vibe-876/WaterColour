@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## Ignore this push, it's a test...
 ## Edit to preference.
 scan_area="$HOME/Downloads"
 malware_list="$HOME/Programming/Projects/WaterColour/malware_list"
